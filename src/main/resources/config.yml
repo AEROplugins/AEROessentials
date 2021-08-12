@@ -1,0 +1,39 @@
+playerjoin:
+  ativar-join-msg: true # ATIVA A NOTIFICACAO DE QUANDO O PLAYER ENTRA ex: (player joined in to sever!)
+
+  join-msg: '§5%player% entrou no servidor!'
+
+  ativar-join-sound: true # ativa o opcao para soltar sons
+
+  # AQUI SO VAI FUNCIONAR SE O ATIVAR-JOIN-SOUND estiver ativado!
+
+  som-para-todos: false  # se o som vai ser geral!
+
+  join-sound: 'ENTITY.PLAYER.LEVELUP' #colcoar o tipo de som! NAO PRECISA DO minecraft:
+
+
+servermotd:
+  ativar-motd: true  # ATIVA DODAS AS FUNCOES A BAIXO DENTRO DO servermotd
+
+  ativar-fakeslot: true #muda a quantidade de slots do servidor mas nao almenta a capacidade
+  ativar-whitelistmotd: true #motd apenas pra quando o servidor entrar em whitelist
+  ativar-whitelistfakeslot: true #fake slots pra quando estiver em whitelist
+
+  motd: #lista de motds! sao exibidos aleatoriamente
+    - '&cMeu Servidor'
+    - '&2e bom'
+    - '&3D+'
+  # - 'PODE SER ADICIONADO INFINITAS LINHAS SEGUINDO O PADRAO!'
+
+  whitelist: #lista de motds da whitelist! sao exibidos aleatoriamente
+    - '&cTa Desligado!'
+    - '&cVolta jaja so esperar'
+  # - 'PODE SER ADICIONADO INFINITAS LINHAS SEGUINDO O PADRAO!'
+
+  fake-slot: 2021 #quantidade de slots
+  whitelist-slot: 0 #quantidade de slots enquanto estiver em whitelist
+
+server-msg:
+  no-perm: '&cVoce nao tem permissao!'
+  no-perm-sound: 'ENTITY.VILLAGER.NO'
+

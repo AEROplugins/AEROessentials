@@ -1,0 +1,7 @@
+name: AEROessentials
+version: 0.1
+main: aero.essentials.main.AEROessentials
+author: AERO
+
+commands:
+  time:

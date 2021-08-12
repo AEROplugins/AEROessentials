@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AEROessentials">
+    <output-path>$USER_HOME$/Desktop/Testes/plugins</output-path>
+    <root id="archive" name="AEROessentials.jar">
+      <element id="module-output" name="AEROessentials" />
+    </root>
+  </artifact>
+</component>

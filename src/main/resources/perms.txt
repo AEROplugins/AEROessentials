@@ -1,0 +1,3 @@
+#PERMS E COMANDOS
+
+ /time # Time.usar  - Faz voce poder usar o comando para mudar o tempo
